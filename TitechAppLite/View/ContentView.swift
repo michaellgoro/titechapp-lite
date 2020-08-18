@@ -13,7 +13,7 @@ struct ContentView: View {
     var body: some View {
         NavigationView{
         List(0..<10){_ in
-            RowDetail()
+            EventRow()
             .padding(.vertical,16)
             .padding(.horizontal,-10)
             }
