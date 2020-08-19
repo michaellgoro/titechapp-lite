@@ -41,7 +41,7 @@ struct EventRow:View {
                 .foregroundColor(Color("main"))
                 .frame(width:44)
                 .font(Font.system(size: 14))
-            Spacer()
+                .padding(.trailing,16)
         }
     }
 }
