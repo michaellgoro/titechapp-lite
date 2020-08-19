@@ -14,10 +14,10 @@ struct ContentView: View {
         NavigationView{
         List(0..<10){_ in
             EventRow()
-            .padding(.vertical,16)
-            .padding(.horizontal,-10)
+            .padding(.horizontal,-16)
+            .listRowInsets(EdgeInsets())
             }
-        .navigationBarTitle(Text("スケジュール"))
+        .navigationBarTitle(Text("スケジュール"),displayMode: .inline)
         }
     }
     
