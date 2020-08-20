@@ -9,9 +9,17 @@
 import SwiftUI
 
 struct ContentView: View {
+   
     var body: some View {
-        Text("Hello, World!")
+        NavigationView{
+        List(0..<10){_ in
+            EventRow()
+            .padding(.horizontal,-16)
+            }
+        .navigationBarTitle(Text("スケジュール"),displayMode: .inline)
+        }
     }
+    
 }
 
 struct ContentView_Previews: PreviewProvider {
