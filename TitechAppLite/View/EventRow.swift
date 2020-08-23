@@ -15,7 +15,7 @@ struct EventRow:View {
                 .frame(width:5.0,height:100.0)
                 .foregroundColor(Color("main"))
             HStack{
-                VStack(alignment: .leading,spacing: 20){
+                VStack(alignment: .leading,spacing: 21){
                     Text("9:00")
                         .foregroundColor(Color("textMain"))
                         .font(Font.system(size: 13))
@@ -24,7 +24,7 @@ struct EventRow:View {
                         .font(Font.system(size: 13))
                 }
                 
-                VStack(alignment: .leading,spacing: 20){
+                VStack(alignment: .leading,spacing: 21){
                     Text("電気的モデリングとシミュレーション hogehoge")
                         .lineLimit(1)
                         .foregroundColor(Color("textMain"))

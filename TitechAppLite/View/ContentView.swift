@@ -12,11 +12,15 @@ struct ContentView: View {
    
     var body: some View {
         NavigationView{
-        List(0..<10){_ in
-            EventRow()
-            .padding(.horizontal,-16)
-            }
-        .navigationBarTitle(Text("スケジュール"),displayMode: .inline)
+                List{
+                    DayView()
+                        .listRowInsets(EdgeInsets())
+                    ForEach(0..<10){_ in
+                    EventRow()
+                    .listRowInsets(EdgeInsets())
+                }
+                }            
+            .navigationBarTitle(Text("スケジュール"),displayMode: .inline)
         }
     }
     
