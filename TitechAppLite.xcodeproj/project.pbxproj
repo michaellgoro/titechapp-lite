@@ -14,6 +14,7 @@
 		F504ABCA24E8F94700FE5070 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F504ABC924E8F94700FE5070 /* Preview Assets.xcassets */; };
 		F504ABCD24E8F94700FE5070 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F504ABCB24E8F94700FE5070 /* LaunchScreen.storyboard */; };
 		F504ABD624E980B800FE5070 /* EventRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F504ABD524E980B800FE5070 /* EventRow.swift */; };
+		F504ABFE24F2231A00FE5070 /* DayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F504ABFD24F2231A00FE5070 /* DayView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		F504ABCC24E8F94700FE5070 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F504ABCE24E8F94700FE5070 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F504ABD524E980B800FE5070 /* EventRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventRow.swift; sourceTree = "<group>"; };
+		F504ABFD24F2231A00FE5070 /* DayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +44,8 @@
 		F504ABB424E8F94600FE5070 = {
 			isa = PBXGroup;
 			children = (
+				F504AC2724F25C6200FE5070 /* Model */,
+				F504AC2624F25C4900FE5070 /* ViewModel */,
 				F504ABBF24E8F94600FE5070 /* TitechAppLite */,
 				F504ABBE24E8F94600FE5070 /* Products */,
 			);
@@ -82,8 +86,23 @@
 			children = (
 				F504ABC424E8F94600FE5070 /* ContentView.swift */,
 				F504ABD524E980B800FE5070 /* EventRow.swift */,
+				F504ABFD24F2231A00FE5070 /* DayView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		F504AC2624F25C4900FE5070 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F504AC2724F25C6200FE5070 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,6 +177,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F504ABC124E8F94600FE5070 /* AppDelegate.swift in Sources */,
+				F504ABFE24F2231A00FE5070 /* DayView.swift in Sources */,
 				F504ABD624E980B800FE5070 /* EventRow.swift in Sources */,
 				F504ABC324E8F94600FE5070 /* SceneDelegate.swift in Sources */,
 				F504ABC524E8F94600FE5070 /* ContentView.swift in Sources */,
