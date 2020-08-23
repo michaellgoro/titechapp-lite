@@ -19,6 +19,7 @@ struct DayView: View {
                 .foregroundColor(Color("textSub"))
             Spacer()
         }
+        .background(Color("backgroudMain"))
     }
 }
 

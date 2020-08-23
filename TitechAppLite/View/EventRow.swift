@@ -12,7 +12,7 @@ struct EventRow:View {
     var body: some View{
         HStack{
             Rectangle()
-                .frame(width:5.0,height:100.0)
+                .frame(width: 5.0,height: 100.0)
                 .foregroundColor(Color("main"))
             HStack{
                 VStack(alignment: .leading,spacing: 21){
@@ -39,9 +39,9 @@ struct EventRow:View {
                 Text("W833,G114")
                     .lineLimit(2)
                     .foregroundColor(Color("main"))
-                    .frame(width:44)
+                    .frame(width: 44)
                     .font(Font.system(size: 14))
-                    .padding(.trailing,16)
+                    .padding(.trailing, 16)
             }
         }
     }
