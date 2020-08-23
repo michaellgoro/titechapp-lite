@@ -13,16 +13,16 @@ struct ContentView: View {
     var body: some View {
         NavigationView{
                 List{
-                    ForEach(0..<10){ _ in
+                    ForEach(0..<10) { _ in
                         Section(header: DayView()) {
-                            ForEach(0..<2){ _ in
+                            ForEach(0..<2) { _ in
                                 EventRow()
                             }
                         }
                         .listRowInsets(EdgeInsets())
                     }
                 }
-                .navigationBarTitle(Text("スケジュール"),displayMode: .inline)
+                .navigationBarTitle(Text("スケジュール"), displayMode: .inline)
         }
     }
     
