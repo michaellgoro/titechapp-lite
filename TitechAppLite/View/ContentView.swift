@@ -16,10 +16,10 @@ struct ContentView: View {
                     ForEach(0..<10){_ in
                         Section(header: DayView()
                             .listRowInsets(EdgeInsets())) {
-                            EventRow()
-                                .listRowInsets(EdgeInsets())
-                            EventRow()
-                                .listRowInsets(EdgeInsets())
+                            ForEach(0..<2){_ in
+                                EventRow()
+                                    .listRowInsets(EdgeInsets())
+                            }
                         }
                     }
                 }
