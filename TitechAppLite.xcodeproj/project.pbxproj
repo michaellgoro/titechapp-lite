@@ -44,6 +44,8 @@
 		F504ABB424E8F94600FE5070 = {
 			isa = PBXGroup;
 			children = (
+				F504AC2724F25C6200FE5070 /* Model */,
+				F504AC2624F25C4900FE5070 /* ViewModel */,
 				F504ABBF24E8F94600FE5070 /* TitechAppLite */,
 				F504ABBE24E8F94600FE5070 /* Products */,
 			);
@@ -87,6 +89,20 @@
 				F504ABFD24F2231A00FE5070 /* DayView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		F504AC2624F25C4900FE5070 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F504AC2724F25C6200FE5070 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
