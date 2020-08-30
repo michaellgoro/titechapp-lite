@@ -17,11 +17,9 @@
 		F504ABFE24F2231A00FE5070 /* DayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F504ABFD24F2231A00FE5070 /* DayView.swift */; };
 		F504AC2924F280D700FE5070 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = F504AC2824F280D700FE5070 /* Event.swift */; };
 		F504AC2B24F2836600FE5070 /* Day.swift in Sources */ = {isa = PBXBuildFile; fileRef = F504AC2A24F2836600FE5070 /* Day.swift */; };
-		F55142D324FB437C00DA9824 /* eventData.json in Resources */ = {isa = PBXBuildFile; fileRef = F55142D224FB437C00DA9824 /* eventData.json */; };
 		F55142D524FB43A700DA9824 /* dayData.json in Resources */ = {isa = PBXBuildFile; fileRef = F55142D424FB43A700DA9824 /* dayData.json */; };
 		F5DFF13D24FAD1B300154166 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DFF13C24FAD1B300154166 /* Data.swift */; };
 		F5DFF14124FAD1CC00154166 /* DayViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DFF13F24FAD1CC00154166 /* DayViewModel.swift */; };
-		F5DFF14224FAD1CC00154166 /* EventViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DFF14024FAD1CC00154166 /* EventViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,11 +35,9 @@
 		F504ABFD24F2231A00FE5070 /* DayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayView.swift; sourceTree = "<group>"; };
 		F504AC2824F280D700FE5070 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		F504AC2A24F2836600FE5070 /* Day.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day.swift; sourceTree = "<group>"; };
-		F55142D224FB437C00DA9824 /* eventData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = eventData.json; sourceTree = "<group>"; };
 		F55142D424FB43A700DA9824 /* dayData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = dayData.json; sourceTree = "<group>"; };
 		F5DFF13C24FAD1B300154166 /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		F5DFF13F24FAD1CC00154166 /* DayViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DayViewModel.swift; sourceTree = "<group>"; };
-		F5DFF14024FAD1CC00154166 /* EventViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,7 +115,6 @@
 		F5DFF12D24FAD0E100154166 /* Resourses */ = {
 			isa = PBXGroup;
 			children = (
-				F55142D224FB437C00DA9824 /* eventData.json */,
 				F55142D424FB43A700DA9824 /* dayData.json */,
 			);
 			path = Resourses;
@@ -129,7 +124,6 @@
 			isa = PBXGroup;
 			children = (
 				F5DFF13F24FAD1CC00154166 /* DayViewModel.swift */,
-				F5DFF14024FAD1CC00154166 /* EventViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -194,7 +188,6 @@
 			files = (
 				F504ABCD24E8F94700FE5070 /* LaunchScreen.storyboard in Resources */,
 				F504ABCA24E8F94700FE5070 /* Preview Assets.xcassets in Resources */,
-				F55142D324FB437C00DA9824 /* eventData.json in Resources */,
 				F55142D524FB43A700DA9824 /* dayData.json in Resources */,
 				F504ABC724E8F94700FE5070 /* Assets.xcassets in Resources */,
 			);
@@ -210,7 +203,6 @@
 				F504AC2B24F2836600FE5070 /* Day.swift in Sources */,
 				F504ABC124E8F94600FE5070 /* AppDelegate.swift in Sources */,
 				F5DFF14124FAD1CC00154166 /* DayViewModel.swift in Sources */,
-				F5DFF14224FAD1CC00154166 /* EventViewModel.swift in Sources */,
 				F504ABFE24F2231A00FE5070 /* DayView.swift in Sources */,
 				F504ABD624E980B800FE5070 /* EventRow.swift in Sources */,
 				F504ABC324E8F94600FE5070 /* SceneDelegate.swift in Sources */,

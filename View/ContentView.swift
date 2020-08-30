@@ -8,16 +8,16 @@
 
 import SwiftUI
 
+
 struct ContentView: View {
-   var dayViewModel: DayViewModel
-   var eventViewModel: EventViewModel
+   @ObservedObject var dayViewModel: DayViewModel
     var body: some View {
         NavigationView {
                 List {
                     ForEach(self.dayViewModel.days) { day in
                         Section(header: DayView(day: day)) {
-                            ForEach(self.eventViewModel.events) { event in
-                                EventRow(event: event)
+                            ForEach(0..<day.events.count) { number in
+                                EventRow(event: day.events[number])
                             }
                         }
                         .listRowInsets(EdgeInsets())
@@ -31,6 +31,6 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView(dayViewModel: DayViewModel(), eventViewModel: EventViewModel())
+        ContentView(dayViewModel: DayViewModel())
     }
 }

@@ -11,7 +11,6 @@ import SwiftUI
 import CoreLocation
 
 let dayData: [Day] = load("dayData.json")
-let eventData: [Event] = load("eventData.json")
 
 func load<T: Decodable>(_ filename: String) -> T {
     let data: Data

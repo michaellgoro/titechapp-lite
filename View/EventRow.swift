@@ -50,6 +50,6 @@ struct EventRow:View {
 
 struct RowDetail_Previews: PreviewProvider {
     static var previews: some View {
-        EventRow(event: EventViewModel().event)
+        EventRow(event: Event(start_time: "3", end_time: "1", class_name: "1", detail: "1", place: "1"))
     }
 }

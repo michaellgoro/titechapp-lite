@@ -26,6 +26,6 @@ struct DayView: View {
 
 struct DayView_Previews: PreviewProvider {
     static var previews: some View {
-        DayView(day: DayViewModel().day)
+        DayView(day: DayViewModel().days[0])
     }
 }

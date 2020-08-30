@@ -11,4 +11,5 @@ import Foundation
 struct Day: Decodable, Identifiable {
     let id: Int
     let day: String
+    let events: [Event]
 }

@@ -10,5 +10,4 @@ import Foundation
 import Combine
 class DayViewModel: ObservableObject {
     @Published var days: [Day] = dayData
-    var day: Day = dayData[0]
 }
