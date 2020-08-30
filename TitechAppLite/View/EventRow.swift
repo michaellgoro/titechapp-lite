@@ -17,16 +17,16 @@ struct EventRow:View {
                 .foregroundColor(Color("main"))
             HStack {
                 VStack(alignment: .leading,spacing: 21) {
-                    Text(event.start_time)
+                    Text(event.startTime)
                         .foregroundColor(Color("textMain"))
                         .font(Font.system(size: 13))
-                    Text(event.end_time)
+                    Text(event.endTime)
                         .foregroundColor(Color("textSub"))
                         .font(Font.system(size: 13))
                 }
                 
                 VStack(alignment: .leading,spacing: 21) {
-                    Text(event.class_name)
+                    Text(event.className)
                         .lineLimit(1)
                         .foregroundColor(Color("textMain"))
                         .font(Font.system(size: 15))
@@ -50,6 +50,6 @@ struct EventRow:View {
 
 struct RowDetail_Previews: PreviewProvider {
     static var previews: some View {
-        EventRow(event: Event(start_time: "3", end_time: "1", class_name: "1", detail: "1", place: "1"))
+        EventRow(event: Event(startTime: "3", endTime: "1", className: "1", detail: "1", place: "1"))
     }
 }

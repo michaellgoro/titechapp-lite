@@ -10,7 +10,7 @@ import UIKit
 import SwiftUI
 import CoreLocation
 
-let dayData: [Day] = load("dayData.json")
+let dateGroupData: [DateGroupEvent] = load("dateGroupData.json")
 
 func load<T: Decodable>(_ filename: String) -> T {
     let data: Data

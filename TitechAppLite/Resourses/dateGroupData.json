@@ -4,16 +4,16 @@
         "day": "7月18日 木曜日",
         "events": [
             {
-                "start_time": "9:00",
-                "end_time": "10:30",
-                "class_name": "電気的モデリングとシミュレーション hogehoge",
+                "startTime": "9:00",
+                "endTime": "10:30",
+                "className": "電気的モデリングとシミュレーション hogehoge",
                 "detail": "RC回路シミュレーション hogehoge hogehoge",
                 "place": "W833,G114"
             },
             {
-                "start_time": "9:00",
-                "end_time": "10:30",
-                "class_name": "電気的モデリングとシミュレーション hogehoge",
+                "startTime": "9:00",
+                "endTime": "10:30",
+                "className": "電気的モデリングとシミュレーション hogehoge",
                 "detail": "RC回路シミュレーション hogehoge hogehoge",
                 "place": "W833,G114"
             }
@@ -24,9 +24,9 @@
         "day": "7月19日 金曜日",
         "events": [
             {
-                "start_time": "9:00",
-                "end_time": "10:30",
-                "class_name": "電気的e",
+                "startTime": "9:00",
+                "endTime": "10:30",
+                "className": "電気的e",
                 "detail": "シミュレーション hogehoge hogehoge",
                 "place": "W833,G114"
             }

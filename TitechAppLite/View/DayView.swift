@@ -9,13 +9,13 @@
 import SwiftUI
 
 struct DayView: View {
-    var day: Day
+    var dateGroupEvent: DateGroupEvent
     var body: some View {
         HStack{
             Rectangle()
                 .frame(width: 5, height: 55)
                 .foregroundColor(Color("grayMain"))
-            Text(day.day)
+            Text(dateGroupEvent.day)
                 .font(Font.system(size: 13))
                 .foregroundColor(Color("textSub"))
             Spacer()
@@ -26,6 +26,6 @@ struct DayView: View {
 
 struct DayView_Previews: PreviewProvider {
     static var previews: some View {
-        DayView(day: DayViewModel().days[0])
+        DayView(dateGroupEvent: DateGroupEventModel().dateGroupEvents[0])
     }
 }

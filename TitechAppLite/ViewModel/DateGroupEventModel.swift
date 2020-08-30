@@ -8,6 +8,6 @@
 
 import Foundation
 import Combine
-class DayViewModel: ObservableObject {
-    @Published var days: [Day] = dayData
+class DateGroupEventModel: ObservableObject {
+    @Published var dateGroupEvents: [DateGroupEvent] = dateGroupData
 }

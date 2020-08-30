@@ -8,8 +8,10 @@
 
 import Foundation
 
-struct Day: Decodable, Identifiable {
-    let id: Int
-    let day: String
-    let events: [Event]
+struct Event: Decodable {
+    let startTime: String
+    let endTime: String
+    let className: String
+    let detail: String
+    let place: String
 }
