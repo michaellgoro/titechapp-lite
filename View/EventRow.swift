@@ -9,34 +9,35 @@
 import SwiftUI
 
 struct EventRow:View {
-    var body: some View{
-        HStack{
+    var event: Event
+    var body: some View {
+        HStack {
             Rectangle()
                 .frame(width: 5.0,height: 100.0)
                 .foregroundColor(Color("main"))
-            HStack{
-                VStack(alignment: .leading,spacing: 21){
-                    Text("9:00")
+            HStack {
+                VStack(alignment: .leading,spacing: 21) {
+                    Text(event.start_time)
                         .foregroundColor(Color("textMain"))
                         .font(Font.system(size: 13))
-                    Text("10:30")
+                    Text(event.end_time)
                         .foregroundColor(Color("textSub"))
                         .font(Font.system(size: 13))
                 }
                 
-                VStack(alignment: .leading,spacing: 21){
-                    Text("電気的モデリングとシミュレーション hogehoge")
+                VStack(alignment: .leading,spacing: 21) {
+                    Text(event.class_name)
                         .lineLimit(1)
                         .foregroundColor(Color("textMain"))
                         .font(Font.system(size: 15))
-                    Text("RC回路シミュレーション hogehoge hogehoge")
+                    Text(event.detail)
                         .lineLimit(1)
                         .foregroundColor(Color("textSub"))
                         .font(Font.system(size: 13))
                 }
                 Spacer()
                 
-                Text("W833,G114")
+                Text(event.place)
                     .lineLimit(2)
                     .foregroundColor(Color("main"))
                     .frame(width: 44)
@@ -49,6 +50,6 @@ struct EventRow:View {
 
 struct RowDetail_Previews: PreviewProvider {
     static var previews: some View {
-        EventRow()
+        EventRow(event: EventViewModel().event)
     }
 }

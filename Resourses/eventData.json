@@ -1,0 +1,18 @@
+[
+    {
+        "id": 0,
+        "start_time": "9:00",
+        "end_time": "10:30",
+        "class_name": "電気的モデリングとシミュレーション hogehoge",
+        "detail": "RC回路シミュレーション hogehoge hogehoge",
+        "place": "W833,G114"
+    },
+    {
+        "id": 1,
+        "start_time": "9:00",
+        "end_time": "10:30",
+        "class_name": "２つ目の電気的モデリングとシミュレーション hogehoge",
+        "detail": "2つ目のRC回路シミュレーション hogehoge hogehoge",
+        "place": "W999"
+    }
+]
