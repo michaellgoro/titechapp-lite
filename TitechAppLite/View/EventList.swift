@@ -16,8 +16,8 @@ struct EventList: View {
                 List {
                     ForEach(self.dateGroupEventModel.dateGroupEvents) { dateGroupEvent in
                         Section(header: DayView(dateGroupEvent: dateGroupEvent)) {
-                            ForEach(0..<dateGroupEvent.events.count) { number in
-                                EventRow(event: dateGroupEvent.events[number])
+                            ForEach(dateGroupEvent.events) { event in
+                                EventRow(event: event)
                             }
                         }
                         .listRowInsets(EdgeInsets())

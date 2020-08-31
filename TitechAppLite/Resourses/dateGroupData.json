@@ -2,15 +2,16 @@
     {
         "id": 0,
         "day": "7月18日 木曜日",
-        "events": [
-            {
+        "events":
+        [
+            {   "id": 0,
                 "startTime": "9:00",
                 "endTime": "10:30",
                 "className": "電気的モデリングとシミュレーション hogehoge",
                 "detail": "RC回路シミュレーション hogehoge hogehoge",
                 "place": "W833,G114"
             },
-            {
+            {   "id": 1,
                 "startTime": "9:00",
                 "endTime": "10:30",
                 "className": "電気的モデリングとシミュレーション hogehoge",
@@ -22,8 +23,9 @@
     {
         "id": 1,
         "day": "7月19日 金曜日",
-        "events": [
-            {
+        "events":
+        [
+            {   "id": 0,
                 "startTime": "9:00",
                 "endTime": "10:30",
                 "className": "電気的e",
