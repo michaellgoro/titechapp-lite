@@ -10,7 +10,7 @@ import SwiftUI
 
 
 struct EventList: View {
-   @ObservedObject var dateGroupEventModel: DateGroupEventModel
+   @ObservedObject var dateGroupEventModel: EventListViewModel
     var body: some View {
         NavigationView {
                 List {
@@ -31,6 +31,6 @@ struct EventList: View {
 
 struct EventList_Previews: PreviewProvider {
     static var previews: some View {
-        EventList(dateGroupEventModel: DateGroupEventModel())
+        EventList(dateGroupEventModel: EventListViewModel())
     }
 }

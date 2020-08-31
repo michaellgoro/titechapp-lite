@@ -8,6 +8,7 @@
 
 import Foundation
 import Combine
-class DateGroupEventModel: ObservableObject {
-    @Published var dateGroupEvents : [DateGroupEvent]  = dateGroupData
+
+class EventListViewModel: ObservableObject {
+    @Published var dateGroupEvents: [DateGroupEvent] = dateGroupData
 }

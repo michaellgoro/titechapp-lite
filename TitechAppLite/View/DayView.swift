@@ -26,6 +26,6 @@ struct DayView: View {
 
 struct DayView_Previews: PreviewProvider {
     static var previews: some View {
-        DayView(dateGroupEvent: DateGroupEventModel().dateGroupEvents[0])
+        DayView(dateGroupEvent: EventListViewModel().dateGroupEvents[0])
     }
 }

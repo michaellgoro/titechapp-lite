@@ -19,7 +19,7 @@
 		F504AC2B24F2836600FE5070 /* DateGroupEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F504AC2A24F2836600FE5070 /* DateGroupEvent.swift */; };
 		F55142D524FB43A700DA9824 /* dateGroupData.json in Resources */ = {isa = PBXBuildFile; fileRef = F55142D424FB43A700DA9824 /* dateGroupData.json */; };
 		F5DFF13D24FAD1B300154166 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DFF13C24FAD1B300154166 /* Data.swift */; };
-		F5DFF14124FAD1CC00154166 /* DateGroupEventModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DFF13F24FAD1CC00154166 /* DateGroupEventModel.swift */; };
+		F5DFF14124FAD1CC00154166 /* EventListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DFF13F24FAD1CC00154166 /* EventListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,7 +37,7 @@
 		F504AC2A24F2836600FE5070 /* DateGroupEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateGroupEvent.swift; sourceTree = "<group>"; };
 		F55142D424FB43A700DA9824 /* dateGroupData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = dateGroupData.json; sourceTree = "<group>"; };
 		F5DFF13C24FAD1B300154166 /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
-		F5DFF13F24FAD1CC00154166 /* DateGroupEventModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateGroupEventModel.swift; sourceTree = "<group>"; };
+		F5DFF13F24FAD1CC00154166 /* EventListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,7 +123,7 @@
 		F5DFF13E24FAD1CC00154166 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				F5DFF13F24FAD1CC00154166 /* DateGroupEventModel.swift */,
+				F5DFF13F24FAD1CC00154166 /* EventListViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -202,7 +202,7 @@
 			files = (
 				F504AC2B24F2836600FE5070 /* DateGroupEvent.swift in Sources */,
 				F504ABC124E8F94600FE5070 /* AppDelegate.swift in Sources */,
-				F5DFF14124FAD1CC00154166 /* DateGroupEventModel.swift in Sources */,
+				F5DFF14124FAD1CC00154166 /* EventListViewModel.swift in Sources */,
 				F504ABFE24F2231A00FE5070 /* DayView.swift in Sources */,
 				F504ABD624E980B800FE5070 /* EventRow.swift in Sources */,
 				F504ABC324E8F94600FE5070 /* SceneDelegate.swift in Sources */,
