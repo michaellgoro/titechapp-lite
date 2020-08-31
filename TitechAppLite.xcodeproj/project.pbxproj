@@ -9,25 +9,35 @@
 /* Begin PBXBuildFile section */
 		F504ABC124E8F94600FE5070 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F504ABC024E8F94600FE5070 /* AppDelegate.swift */; };
 		F504ABC324E8F94600FE5070 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F504ABC224E8F94600FE5070 /* SceneDelegate.swift */; };
-		F504ABC524E8F94600FE5070 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F504ABC424E8F94600FE5070 /* ContentView.swift */; };
+		F504ABC524E8F94600FE5070 /* EventList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F504ABC424E8F94600FE5070 /* EventList.swift */; };
 		F504ABC724E8F94700FE5070 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F504ABC624E8F94700FE5070 /* Assets.xcassets */; };
 		F504ABCA24E8F94700FE5070 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F504ABC924E8F94700FE5070 /* Preview Assets.xcassets */; };
 		F504ABCD24E8F94700FE5070 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F504ABCB24E8F94700FE5070 /* LaunchScreen.storyboard */; };
 		F504ABD624E980B800FE5070 /* EventRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F504ABD524E980B800FE5070 /* EventRow.swift */; };
 		F504ABFE24F2231A00FE5070 /* DayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F504ABFD24F2231A00FE5070 /* DayView.swift */; };
+		F504AC2924F280D700FE5070 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = F504AC2824F280D700FE5070 /* Event.swift */; };
+		F504AC2B24F2836600FE5070 /* DateGroupEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F504AC2A24F2836600FE5070 /* DateGroupEvent.swift */; };
+		F55142D524FB43A700DA9824 /* dateGroupData.json in Resources */ = {isa = PBXBuildFile; fileRef = F55142D424FB43A700DA9824 /* dateGroupData.json */; };
+		F5DFF13D24FAD1B300154166 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DFF13C24FAD1B300154166 /* Data.swift */; };
+		F5DFF14124FAD1CC00154166 /* EventListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DFF13F24FAD1CC00154166 /* EventListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F504ABBD24E8F94600FE5070 /* TitechAppLite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TitechAppLite.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F504ABC024E8F94600FE5070 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F504ABC224E8F94600FE5070 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F504ABC424E8F94600FE5070 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F504ABC424E8F94600FE5070 /* EventList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventList.swift; sourceTree = "<group>"; };
 		F504ABC624E8F94700FE5070 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F504ABC924E8F94700FE5070 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F504ABCC24E8F94700FE5070 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F504ABCE24E8F94700FE5070 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F504ABD524E980B800FE5070 /* EventRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventRow.swift; sourceTree = "<group>"; };
 		F504ABFD24F2231A00FE5070 /* DayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayView.swift; sourceTree = "<group>"; };
+		F504AC2824F280D700FE5070 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		F504AC2A24F2836600FE5070 /* DateGroupEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateGroupEvent.swift; sourceTree = "<group>"; };
+		F55142D424FB43A700DA9824 /* dateGroupData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = dateGroupData.json; sourceTree = "<group>"; };
+		F5DFF13C24FAD1B300154166 /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		F5DFF13F24FAD1CC00154166 /* EventListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,8 +54,6 @@
 		F504ABB424E8F94600FE5070 = {
 			isa = PBXGroup;
 			children = (
-				F504AC2724F25C6200FE5070 /* Model */,
-				F504AC2624F25C4900FE5070 /* ViewModel */,
 				F504ABBF24E8F94600FE5070 /* TitechAppLite */,
 				F504ABBE24E8F94600FE5070 /* Products */,
 			);
@@ -62,9 +70,12 @@
 		F504ABBF24E8F94600FE5070 /* TitechAppLite */ = {
 			isa = PBXGroup;
 			children = (
+				F5DFF12D24FAD0E100154166 /* Resourses */,
+				F504AC2724F25C6200FE5070 /* Model */,
+				F5DFF13E24FAD1CC00154166 /* ViewModel */,
+				F504ABD424E9806F00FE5070 /* View */,
 				F504ABC024E8F94600FE5070 /* AppDelegate.swift */,
 				F504ABC224E8F94600FE5070 /* SceneDelegate.swift */,
-				F504ABD424E9806F00FE5070 /* View */,
 				F504ABC624E8F94700FE5070 /* Assets.xcassets */,
 				F504ABCB24E8F94700FE5070 /* LaunchScreen.storyboard */,
 				F504ABCE24E8F94700FE5070 /* Info.plist */,
@@ -84,25 +95,37 @@
 		F504ABD424E9806F00FE5070 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				F504ABC424E8F94600FE5070 /* ContentView.swift */,
+				F504ABC424E8F94600FE5070 /* EventList.swift */,
 				F504ABD524E980B800FE5070 /* EventRow.swift */,
 				F504ABFD24F2231A00FE5070 /* DayView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
 		};
-		F504AC2624F25C4900FE5070 /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewModel;
-			sourceTree = "<group>";
-		};
 		F504AC2724F25C6200FE5070 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				F504AC2824F280D700FE5070 /* Event.swift */,
+				F504AC2A24F2836600FE5070 /* DateGroupEvent.swift */,
+				F5DFF13C24FAD1B300154166 /* Data.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		F5DFF12D24FAD0E100154166 /* Resourses */ = {
+			isa = PBXGroup;
+			children = (
+				F55142D424FB43A700DA9824 /* dateGroupData.json */,
+			);
+			path = Resourses;
+			sourceTree = "<group>";
+		};
+		F5DFF13E24FAD1CC00154166 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F5DFF13F24FAD1CC00154166 /* EventListViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,6 +188,7 @@
 			files = (
 				F504ABCD24E8F94700FE5070 /* LaunchScreen.storyboard in Resources */,
 				F504ABCA24E8F94700FE5070 /* Preview Assets.xcassets in Resources */,
+				F55142D524FB43A700DA9824 /* dateGroupData.json in Resources */,
 				F504ABC724E8F94700FE5070 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -176,11 +200,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F504AC2B24F2836600FE5070 /* DateGroupEvent.swift in Sources */,
 				F504ABC124E8F94600FE5070 /* AppDelegate.swift in Sources */,
+				F5DFF14124FAD1CC00154166 /* EventListViewModel.swift in Sources */,
 				F504ABFE24F2231A00FE5070 /* DayView.swift in Sources */,
 				F504ABD624E980B800FE5070 /* EventRow.swift in Sources */,
 				F504ABC324E8F94600FE5070 /* SceneDelegate.swift in Sources */,
-				F504ABC524E8F94600FE5070 /* ContentView.swift in Sources */,
+				F504AC2924F280D700FE5070 /* Event.swift in Sources */,
+				F504ABC524E8F94600FE5070 /* EventList.swift in Sources */,
+				F5DFF13D24FAD1B300154166 /* Data.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
